@@ -11,6 +11,7 @@ export const SKILLS = [
   'TypeScript',
   'JavaScript',
   'Tailwind CSS',
+  'Framer Motion',
   'Zustand',
   'Supabase',
   'Git & GitHub',
@@ -27,6 +28,14 @@ export const PROJECTS: IProject[] = [
     tech: ['React', 'TypeScript', 'Supabase', 'Zustand', 'Tailwind CSS'],
     liveUrl: 'https://apply-pilot-sigma.vercel.app',
     githubUrl: 'https://github.com/Israfil98/apply-pilot',
+  },
+  {
+    title: 'Inkwell Landing Page',
+    description:
+      'SaaS landing page for an AI writing assistant. Features scroll-triggered animations, an accordion FAQ, a 3-tier pricing table, and a fully responsive dark editorial design.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    liveUrl: 'https://inkwell-landing-sepia.vercel.app',
+    githubUrl: 'https://github.com/Israfil98/inkwell-landing',
   },
 ];
 

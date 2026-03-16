@@ -14,7 +14,7 @@ const ProjectCard = ({ project, index }: IProjectCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.15 }}
-      className="group hover:border-emerald-glow/20 rounded-2xl border border-white/5 bg-white/2 p-6 transition-all hover:bg-white/4 sm:p-8"
+      className="group hover:border-emerald-glow/20 flex h-full flex-col rounded-2xl border border-white/5 bg-white/2 p-6 transition-all hover:bg-white/4 sm:p-8"
     >
       <div className="mb-4 flex items-start justify-between">
         <h3 className="text-xl font-semibold text-white">{project.title}</h3>
@@ -41,7 +41,7 @@ const ProjectCard = ({ project, index }: IProjectCardProps) => {
         </div>
       </div>
 
-      <p className="mb-6 leading-relaxed text-gray-400">
+      <p className="mb-6 flex-1 leading-relaxed text-gray-400">
         {project.description}
       </p>
 
