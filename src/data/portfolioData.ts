@@ -53,3 +53,9 @@ export const PROJECTS: IProject[] = [
     githubUrl: 'https://github.com/Israfil98/inkwell-landing',
   },
 ];
+
+export const SOCIAL_LINKS = {
+  github: 'https://github.com/Israfil98',
+  linkedin: 'https://www.linkedin.com/in/israfil-guseinov/',
+  email: 'israfilguseinov98@gmail.com',
+};
