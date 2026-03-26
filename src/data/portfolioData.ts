@@ -22,6 +22,21 @@ export const SKILLS = [
 
 export const PROJECTS: IProject[] = [
   {
+    title: 'Dinespot',
+    description:
+      'Restaurant booking system with a customer-facing site and admin dashboard. Features menu management, table reservations with status workflow, and Supabase auth with row-level security.',
+    tech: [
+      'React',
+      'TypeScript',
+      'Supabase',
+      'Zustand',
+      'Tailwind CSS',
+      'React Router',
+    ],
+    liveUrl: 'https://restaurant-booking-5jsz.vercel.app',
+    githubUrl: 'https://github.com/Israfil98/restaurant-booking',
+  },
+  {
     title: 'Apply Pilot',
     description:
       'Full-stack job application tracker with auth, CRUD operations, real-time data, and a CI/CD pipeline. Built to streamline the job search process.',
