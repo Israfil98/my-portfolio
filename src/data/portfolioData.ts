@@ -11,7 +11,10 @@ export const SKILLS = [
   'TypeScript',
   'JavaScript',
   'Tailwind CSS',
+  'Sass/SCSS',
   'Framer Motion',
+  'TanStack Query',
+  'Recharts',
   'Zustand',
   'Supabase',
   'Git & GitHub',
@@ -21,6 +24,21 @@ export const SKILLS = [
 ];
 
 export const PROJECTS: IProject[] = [
+  {
+    title: 'NexToken',
+    description:
+      'Crypto analytics dashboard with real-time market data from CoinGecko. Features interactive price charts, sortable coin tables with sparklines, a persistent watchlist, and full dark/light theme support.',
+    tech: [
+      'React',
+      'TypeScript',
+      'Sass/SCSS',
+      'TanStack Query',
+      'Recharts',
+      'Zustand',
+    ],
+    liveUrl: 'https://nextoken-six.vercel.app',
+    githubUrl: 'https://github.com/Israfil98/nextoken',
+  },
   {
     title: 'Dinespot',
     description:
